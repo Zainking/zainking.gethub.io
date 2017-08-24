@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=320.1,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+	<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>简历——王子一</title>
+	<style>
+		html{
+			overflow-x: hidden;
+		}
+		*{
+			margin:0;
+			padding:0;
+			font-family:"Microsoft Yahei Light","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+		}
+		body{
+			text-align: center;
+		}
+		#main{
+			width:100%;
+			max-width: 640px;
+			text-align: left;
+			display: inline-block;
+			overflow: auto;
+		}
+		#detail{
+			display: inline-block;
+			float: left;
+			width: 320px;
+		}
+		h1{
+			display: inline;
+		}
+		img{
+			width: 320px;
+			float: right;
+		}
+		@media  screen and (max-width: 640px){
+			img{
+				width: 100%;
+			}
+		}
+		h2{
+			width: 100%;
+			display: inline-block;
+			background-color: #eee;
+			padding:5px 0;
+			text-indent: 0.5em;
+		}
+		p{
+			font-size: 1.2em;
+			line-height: 1.8em;
+			text-indent: 2em;
+		}
+		#detail p{
+			text-indent: 0;
+		}
+		h3{
+			text-indent: 2em;
+		}
+		h3 span{
+			font-size: 0.8em;
+			font-weight: 400;
+			float: right;
+		}
+		a{
+			text-decoration: none;
+			color:#000;
+			width:100%;
+			padding:5px 0;
+			font-size: 1.5em;
+			display: block;
+		}
+		a:hover{
+			color:#FFA500;
+			border-bottom: 2px solid #FFA500;
+		}
+		#goback{
+			background-color: #eee;
+			cursor: pointer;
+			text-align: center;
+			font-size: 1.5em;
+			line-height: 2em;
+		}
+		#goback:hover{
+			background-color: #FFA500;
+			color:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="main" class="animated bounceInRight">
+		<div id="detail">
+			<h1>王子一</h1>
+			<p>生日 1996-7-31</p>
+			<p>学历 湖南大学-本科</p>
+			<p>邮箱 zainking2016@hotmail.com</p>
+			<p>手机 18273192953</p>
+			<p>ＱＱ 1515978989</p>
+			<p>位置 北京&长沙</p>
+		</div>
+		<img src="http://ouqp9l9vp.bkt.clouddn.com/me.jpg" alt="me">
+		<h2>自我评价</h2>
+		<h2>技能列表</h2>
+		<h2>工作经历</h2>
+		<h3>千年弦歌网络工作室 <span>2017年5月-现在</span></h3>
+		<h3>北京奇迹空间科技有限公司 <span>2017年6月-2017年8月</span></h3>
+		<h3>XiaoLab团队 <span>2017年8月-现在</span></h3>
+		<h2>项目介绍</h2>
+		<h3>mbti48性格测试系统</h3>
+		<p>练习项目，V1.0版本使用了原生php与Jquery构建，实现了动态读取问题，记录答案，计算评分，给出测试结果，用户登录，注册，修改密码以及查看历史测试等各功能。我负责了所有的前后端构架和服务器部署。</p><br>
+		<h3>湖南大学新生宝典</h3>
+		<p>在千年弦歌网络工作室主要负责的2017级湖南大学新生咨询/报道入口，使用Jquery与fullpage.js为主构建，包括从接口中获取文章，调用地图Api，一个可以回复点赞的留言板，以及新生登陆，预购买，预报到，查看个人信息等功能。我负责了前端的构架和大部分前端内容，以及前端人力调度和少部分部署运维任务。</p><br>
+		<h3>XiaoLab课程签到扫码系统</h3>
+		<p>在XiaoLab团队主要负责的课堂扫码签到系统，使用Jquery和二维码插件等工具构建，包括从接口获取信息生成二维码，二维码管理，学生扫码细节生成报表等功能。我负责了此系统所有的前端内容。</p><br>
+		<h3>某企业后台管理系统</h3>
+		<p>在北京奇迹空间科技有限公司承担的外包Web项目，是一个复杂的公司后台管理系统，包括复杂增改删查，日志管理，用户权限管理等。以Angular2与Laravel构建。我负责了部分Api文档写作，产品原型图与流程图绘制，小功能的前后端代码写作等任务。</p>
+		<a id="goback" href="javascript:;">返回首页</a>
+	</div>
+	<script>
+		$("#goback").click(function(){
+			$("#main").addClass('animated bounceOutLeft');
+			setTimeout(function(){window.location.href = 'index.html'},400);
+		});
+	</script>
+</body>
+</html>

@@ -95,9 +95,9 @@
 		<br>
 		<h1>Zain King</h1>
 		<ul>
-			<li><a href="http://blog.zain.red">博客</a></li>
+			<li><a id="blog" href="javascript:;">博客</a></li>
 			<li><a id="myworklink" href="javascript:;">作品</a></li>
-			<li><a href="javascript:;">简历</a></li>
+			<li><a href="resume.html">简历</a></li>
 		</ul>
 	</div>
 	<div id="mywork">
@@ -129,6 +129,10 @@
 		$("#goback").click(function(){
 			$("#mywork").addClass('animated bounceOutLeft');
 			setTimeout(function(){window.location.reload()},400);
+		});
+		$("#blog").click(function(){
+			$("#index").addClass('animated bounceOutLeft');
+			setTimeout(function(){window.location.href = "http://blog.zain.red"},400);
 		});
 	</script>
 </body>
