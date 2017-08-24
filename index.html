@@ -97,7 +97,7 @@
 		<ul>
 			<li><a id="blog" href="javascript:;">博客</a></li>
 			<li><a id="myworklink" href="javascript:;">作品</a></li>
-			<li><a href="resume.html">简历</a></li>
+			<li><a id="resume" href="javascript:;">简历</a></li>
 		</ul>
 	</div>
 	<div id="mywork">
@@ -133,6 +133,10 @@
 		$("#blog").click(function(){
 			$("#index").addClass('animated bounceOutLeft');
 			setTimeout(function(){window.location.href = "http://blog.zain.red"},400);
+		});
+		$("#resume").click(function(){
+			$("#index").addClass('animated bounceOutLeft');
+			setTimeout(function(){window.location.href = "resume.html"},400);
 		});
 	</script>
 </body>
