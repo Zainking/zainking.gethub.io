@@ -13,7 +13,9 @@
 		*{
 			margin:0;
 			padding:0;
-			font-family:"Microsoft Yahei Light","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+			font-family:"Microsoft Yahei","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+			font-size: 0.95em;
+			letter-spacing: 2px;
 		}
 		body{
 			text-align: center;
@@ -30,13 +32,28 @@
 			display: inline-block;
 			float: left;
 			width: 320px;
+			margin-top: 1rem;
+		}
+		#detail p{
+			margin: 0.5em 0;
+			font-size: 0.9rem;
+			text-indent: 0.5rem;
+		}
+		#detail span{
+			font-weight: 700;
+			margin-right: 10px;
 		}
 		h1{
 			display: inline;
+			font-size: 2em;
+			padding-left: 0.5rem;
 		}
 		img{
-			width: 320px;
+			width: 250px;
 			float: right;
+			margin-bottom: 2rem;
+			border-radius: 50%;
+			margin-top: 1rem;
 		}
 		@media  screen and (max-width: 640px){
 			img{
@@ -46,20 +63,25 @@
 		h2{
 			width: 100%;
 			display: inline-block;
-			background-color: #eee;
+			background-color: #FFA500;
+			color: #222;
 			padding:5px 0;
-			text-indent: 0.5em;
+			font-size: 1.3em;
+			font-weight: 550;
+			text-indent: 0.5rem;
 		}
 		p{
 			font-size: 1.2em;
 			line-height: 1.8em;
 			text-indent: 2em;
-		}
-		#detail p{
-			text-indent: 0;
+			margin-bottom: 3em;
+			margin-top: 0.2em;
 		}
 		h3{
-			text-indent: 2em;
+			font-weight: 500;
+			font-size: 0.9rem;
+			margin: 0.5em 0;
+			text-indent: 0.5rem;
 		}
 		h3 span{
 			font-size: 0.8em;
@@ -88,10 +110,18 @@
 			background-color: #FFA500;
 			color:#fff;
 		}
+		.workexp{
+			margin-top: 0.5em;
+			font-size: 1.1em;
+			font-weight: 700;
+		}
 		.workexp span{
 			display: block;
 			float: none;
 			color:#888;
+		}
+		.inner{
+			font-size: 0.9rem;
 		}
 	</style>
 </head>
@@ -100,44 +130,44 @@
 	<a id="goback" href="javascript:;">返回首页</a>
 		<div id="detail">
 			<h1>王子一</h1>
-			<p>生日 1996-7-31</p>
-			<p>学历 湖南大学-本科</p>
-			<p>邮箱 zainking2016@hotmail.com</p>
-			<p>手机 18273192953</p>
-			<p>ＱＱ 1515978989</p>
-			<p>位置 北京&长沙</p>
+			<p><span>生日</span> 1996-7-31</p>
+			<p><span>学历</span> 湖南大学-本科</p>
+			<p><span>邮箱</span> zainking2016@hotmail.com</p>
+			<p><span>手机</span> 18273192953</p>
+			<p><span>ＱＱ</span> 1515978989</p>
+			<p><span>位置</span> 北京&长沙</p>
 		</div>
 		<img src="me.jpg" alt="me">
 		<h2>技能列表</h2>
 		<h3>git版本控制<span>掌握</span></h3>
-		<h3>HTML&HTML5<span>熟悉</span></h3>
 		<h3>CSS&CSS3<span>掌握</span></h3>
-		<h3>Stylus<span>熟悉</span></h3>
-		<h3>Bootstrap<span>熟悉</span></h3>
 		<h3>原生Javascript&ES6<span>掌握</span></h3>
 		<h3>Jquery<span>掌握</span></h3>
-		<h3>Vue，React<span>了解</span></h3>
+		<h3>HTML&HTML5<span>熟悉</span></h3>
+		<h3>Stylus<span>熟悉</span></h3>
+		<h3>Bootstrap<span>熟悉</span></h3>
 		<h3>Angular2<span>熟悉</span></h3>
-		<h3>Linux系统<span>了解</span></h3>
 		<h3>SQL语言<span>熟悉</span></h3>
 		<h3>原生php<span>熟悉</span></h3>
 		<h3>Laravel<span>了解</span></h3>
+		<h3>Vue，React<span>了解</span></h3>
+		<h3>Linux系统<span>了解</span></h3>
 		<h2>工作经历</h2>
 		<h3 class="workexp">千年弦歌网络工作室 <span>2017年5月-现在</span></h3>
-		<p>在千年弦歌网络工作室，我负责了毕业生礼包，新生宝典以及微信公众号页面等前端工程的开发工作。</p><br>
+		<p class="inner">在千年弦歌网络工作室，我负责了毕业生礼包，新生宝典以及微信公众号页面等前端工程的开发工作。</p>
 		<h3 class="workexp">北京奇迹空间科技有限公司 <span>2017年6月-2017年8月</span></h3>
-		<p>在奇迹空间，我从画原型图和写api文档开始熟悉整个外包项目和公司流程，并接手了一些简单的增改删查的前后端代码编写工作。</p><br>
+		<p class="inner">在奇迹空间，我从画原型图和写api文档开始熟悉整个外包项目和公司流程，并接手了一些简单的增改删查的前后端代码编写工作。</p>
 		<h3 class="workexp">XiaoLab团队 <span>2017年8月-现在</span></h3>
-		<p>在XiaoLab团队，主要负责了扫码控制面板等的前端页面工作。</p><br>
+		<p class="inner">在XiaoLab团队，主要负责了扫码控制面板等的前端页面工作。</p>
 		<h2>项目介绍</h2>
-		<h3>mbti48性格测试系统</h3>
-		<p>练习项目，V1.0版本使用了原生php与Jquery构建，实现了动态读取问题，记录答案，计算评分，给出测试结果，用户登录，注册，修改密码以及查看历史测试等各功能。我负责了所有的前后端构架和服务器部署。</p><br>
-		<h3>湖南大学新生宝典</h3>
-		<p>在千年弦歌网络工作室主要负责的2017级湖南大学新生咨询/报道入口，使用Jquery与fullpage.js为主构建，包括从接口中获取文章，调用地图Api，一个可以回复点赞的留言板，以及新生登陆，预购买，预报到，查看个人信息等功能。我负责了前端的构架和大部分前端内容，以及前端人力调度和少部分部署运维任务。</p><br>
-		<h3>XiaoLab课程签到扫码系统</h3>
-		<p>在XiaoLab团队主要负责的课堂扫码签到系统，使用Jquery和二维码插件等工具构建，包括从接口获取信息生成二维码，二维码管理，学生扫码细节生成报表等功能。我负责了此系统所有的前端内容。</p><br>
-		<h3>某企业后台管理系统</h3>
-		<p>在北京奇迹空间科技有限公司承担的外包Web项目，是一个复杂的公司后台管理系统，包括复杂增改删查，日志管理，用户权限管理等。以Angular2与Laravel构建。我负责了部分Api文档写作，产品原型图与流程图绘制，小功能的前后端代码写作等任务。</p>
+		<h3 class="workexp">mbti48性格测试系统</h3>
+		<p class="inner">练习项目，V1.0版本使用了原生php与Jquery构建，实现了动态读取问题，记录答案，计算评分，给出测试结果，用户登录，注册，修改密码以及查看历史测试等各功能。我负责了所有的前后端构架和服务器部署。</p>
+		<h3 class="workexp">湖南大学新生宝典</h3>
+		<p class="inner">在千年弦歌网络工作室主要负责的2017级湖南大学新生咨询/报道入口，使用Jquery与fullpage.js为主构建，包括从接口中获取文章，调用地图Api，一个可以回复点赞的留言板，以及新生登陆，预购买，预报到，查看个人信息等功能。我负责了前端的构架和大部分前端内容，以及前端人力调度和少部分部署运维任务。</p>
+		<h3 class="workexp">XiaoLab课程签到扫码系统</h3>
+		<p class="inner">在XiaoLab团队主要负责的课堂扫码签到系统，使用Jquery和二维码插件等工具构建，包括从接口获取信息生成二维码，二维码管理，学生扫码细节生成报表等功能。我负责了此系统所有的前端内容。</p>
+		<h3 class="workexp">某企业后台管理系统</h3>
+		<p class="inner">在北京奇迹空间科技有限公司承担的外包Web项目，是一个复杂的公司后台管理系统，包括复杂增改删查，日志管理，用户权限管理等。以Angular2与Laravel构建。我负责了部分Api文档写作，产品原型图与流程图绘制，小功能的前后端代码写作等任务。</p>
 	</div>
 	<script>
 		$("#goback").click(function(){
