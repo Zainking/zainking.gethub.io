@@ -9,6 +9,8 @@ div#index
       router-link(to="/projects") 作品
     li
       router-link(to="/resume") 简历
+    li
+      router-link(to="/other") 其他
 </template>
 
 <script>
@@ -26,24 +28,36 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='stylus' scoped>
 $maincolor = #ffa500;
+@media (max-width:640px)
+  #index ul
+    flex-direction: column;
+    li
+      margin: 10px auto;
+      font-size: 1.3em;
+@media (min-width:640px)
+  #index ul
+    min-width: 90%;
 #index
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
   img
     width: 200px;
   h1
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
   ul
     list-style: none;
     padding: 0;
     display: flex;
-    min-width: 100%;
+    margin-top: 50px;
     li
       flex-grow: 1;
       text-align: center;
+      position: realtive;
+      left: -1em;
       a::before
         content: '';
         width: 0.5em;
@@ -54,6 +68,14 @@ $maincolor = #ffa500;
       a
         text-decoration: none;
         color: #000;
-      a:hover
+        transition: all 0.4s;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    li:hover
+      a
         color: $maincolor;
+      a::before
+        border-radius: 50%;
+
 </style>

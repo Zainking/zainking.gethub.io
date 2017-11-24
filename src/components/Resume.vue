@@ -1,5 +1,6 @@
 <template lang='jade'>
 div#resume
+  TopBar(title='简历')
   p resume
 </template>
 

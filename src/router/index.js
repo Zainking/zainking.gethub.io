@@ -3,9 +3,11 @@ import Router from 'vue-router'
 import Index from '@/components/Index'
 import Projects from '@/components/Projects'
 import Resume from '@/components/Resume'
+import Other from '@/components/Other'
+import TopBar from '@/components/TopBar'
 
 Vue.use(Router)
-
+Vue.component('TopBar', TopBar)
 export default new Router({
   routes: [
     {
@@ -22,6 +24,11 @@ export default new Router({
       path: '/resume',
       name: 'resume',
       component: Resume
+    },
+    {
+      path: '/other',
+      name: 'other',
+      component: Other
     }
   ]
 })
