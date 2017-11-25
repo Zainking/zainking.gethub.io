@@ -6,6 +6,7 @@ import Resume from '@/components/Resume'
 import Other from '@/components/Other'
 import TopBar from '@/components/TopBar'
 import GoHref from '@/components/GoHref'
+import ProjectDetail from '@/components/ProjectDetail'
 
 Vue.use(Router)
 Vue.component('TopBar', TopBar)
@@ -20,6 +21,11 @@ export default new Router({
       path: '/projects',
       name: 'projects',
       component: Projects
+    },
+    {
+      path: '/projects/:id',
+      name: 'projectDetail',
+      component: ProjectDetail
     },
     {
       path: '/resume',

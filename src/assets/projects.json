@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Resumer简历生成器",
+    "info": "可以拿来生成一个简历，还可以保存在网上！",
+    "technicalStack": ["Vue", "VueX", "Vue-router", "jade", "stylus", "LeanCloud"],
+    "detail": "使用Vue + Vuex + Vue-router + jade + stylus + leanCloud构建的一个简历编辑器，实现了工程式模块化，基于路由的懒加载等，花费了很多思考做的比较精致的一个小东西",
+    "link": "//resumer.zain.red",
+    "sourceCode": "https://github.com/Zainking/resumer/tree/source-code",
+    "imgUrl": "https://img1.zain.red/11.25/9.png"
+  },
+  {
+    "name": "XiaoLab-首页",
+    "info": "用来介绍肖老师的主页，嗯...",
+    "technicalStack": ["jQuery"],
+    "detail": "主要为湖南大学信息院肖晟老师的介绍首页，通过Ajax实现了文档的模块化，并手写了一个前端路由，实践了多语言解决方案。",
+    "link": "http://xiaolab.net/#bio",
+    "sourceCode": "https://github.com/Zainking/xiaolab",
+    "imgUrl": "https://img1.zain.red/11.25/10.png"
+  },
+  {
+    "name": "XiaoLab-二维码管理后台",
+    "info": "XiaoLab项目组SIT项目的一部分，用于大学教师在后台管理自己生成的二维码",
+    "technicalStack": ["jQuery", "BootStrap", "Spring"],
+    "detail": "在XiaoLab团队主要负责的课堂扫码签到系统，使用Jquery和二维码插件等工具构建，后台以Spring框架构建，包括从接口获取信息生成二维码，二维码管理，学生扫码细节生成报表等功能。",
+    "link": "http://lsm.xiaolab.net/",
+    "isNeedUser": true,
+    "imgUrl": "https://img1.zain.red/11.25/7.png"
+  },
+  {
+    "name": "千年弦歌-人员管理系统",
+    "info": "用五天写的一个中台人员管理系统",
+    "technicalStack": ["jQuery", "CodeIgniter"],
+    "detail": "在弦歌负责的通讯录和人员管理后台系统，以及招新首页，使用CI与Jquery构建。实现了分权限动态加载内容，分页和较复杂的人员面试，网申流程管理，网申结果查询。并给普通权限成员分配了一个通讯录。",
+    "link": "http://qnxg.net/insider/frontend/insider.html",
+    "isNeedUser": true,
+    "imgUrl": "https://img1.zain.red/11.25/6.png"
+  },
+  {
+    "name": "千年弦歌-前端实习生学习网",
+    "info": "如果你也想学前端，不如我来教你~",
+    "technicalStack": ["jQuery", "Flex布局"],
+    "detail": "为千年弦歌实习生写的发布实习任务的网站，其中每周任务为我本人所写，加入了我对前端基础培训的思考。网站使用flex布局，并增加了一个可以随机生成项目颜色的函数和一个md解析器。",
+    "link": "//intern.zain.red",
+    "sourceCode": "https://github.com/Zainking/front-end-intern-training",
+    "imgUrl": "https://img1.zain.red/11.25/8.png"
+  },
+  {
+    "name": "千年弦歌-招新首页",
+    "info": "如果你身处湖南大学，想加入一个网络工作室那可以来这里",
+    "technicalStack": ["jQuery", "fullPage.js"],
+    "detail": "招新首页事实上可以等同于大多数的H5页面架构，这个时候前端和设计师的配合就显得尤为重要，和新生宝典相同，使用了jQuery的fullPage.js插件",
+    "link": "http://qnxg.net/hr/",
+    "imgUrl": "https://img1.zain.red/11.25/5.png"
+  },
+  {
+    "name": "千年弦歌-2017新生宝典",
+    "info": "2017年湖南大学新生信息发布和网上报道入口",
+    "technicalStack": ["jQuery", "fullPage.js", "Slim", "ThinkPHP"],
+    "detail": "在千年弦歌网络工作室主要负责的2017级湖南大学新生咨询/报道入口，使用Jquery与fullpage.js为主构建，包括从接口中获取文章，调用地图Api，一个可以回复点赞的留言板，以及新生登陆，预购买，预报到，查看个人信息等功能。",
+    "link": "http://2017.qnxg.net/frontend/index.html",
+    "isNeedUser": true,
+    "imgUrl": "https://img1.zain.red/11.25/4.png"
+  },
+  {
+    "name": "mbti48心理测试网站",
+    "info": "一个参考了MBTI人格分析法写成的心理测试网站，你大可以在里面测一测你是什么类型的人",
+    "technicalStack": ["jQuery", "原生php", "mySQL"],
+    "detail": "练习项目，V1.0版本使用了原生php与Jquery构建，实现了动态读取问题，记录答案，计算评分，给出测试结果，用户登录，注册，修改密码以及查看历史测试等各功能。",
+    "link": "http://wzy88665.gotoip55.com/mbti48/",
+    "imgUrl": "https://img1.zain.red/11.25/3.png"
+  },
+  {
+    "name": "基础练习项目",
+    "info": "写来练手的项目，从html css到js，比如封装个轮播图或者瀑布流什么的",
+    "technicalStack": ["HTML 5", "CSS 3", "ES6", "jQuery", "Requirejs", "Gulp", "Webpack"],
+    "detail": "在饥人谷的学习期间，我巩固了CSS与JS基础，并完成了几个设计项目。事实上在这里学到的前端工程化模块化思想和相关工具正是我当初的瓶颈",
+    "sourceCode": "https://github.com/Zainking/demos",
+    "imgUrl": "https://img1.zain.red/11.25/2.png"
+  },
+  {
+    "name": "百度前端学院项目",
+    "info": "16年百度前端学院的题目，只写了前三个学院的必修，包括一些js算法的内容",
+    "technicalStack": ["HTML", "CSS", "javaScript", "基础算法"],
+    "detail": "初学前端时在百度前端学院所完成的基础内容，包括CSS基础布局，js排序算法，表单基础实现等。我通过百度前端学院完成了前端基础的自修",
+    "sourceCode": "https://github.com/Zainking/IFE_Demo",
+    "imgUrl": "https://img1.zain.red/11.25/1.png"
+  }
+]
