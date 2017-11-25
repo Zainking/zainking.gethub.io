@@ -26,5 +26,5 @@ $maincolor = #ffa500;
   a:hover
     color: $maincolor;
   p
-    // font-weight: 700;
+    font-weight: 700;
 </style>
