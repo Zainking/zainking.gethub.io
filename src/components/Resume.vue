@@ -15,12 +15,12 @@ div#resume
       p.itemTitle {{item[0]}}
       p.workTime {{item[1]}}
       p.itemInfo {{item[2]}}
+  router-link.projects(to="/projects") 查看我的项目 &gt;&gt;
   h3.title 其他经历
   ul
     li(v-for="item in resume.other")
       p.itemTitle {{item[0]}}
       p.itemInfo {{item[1]}}
-  router-link.projects(to="/projects") 查看我的项目 &gt;&gt;
 </template>
 
 <script>
@@ -93,6 +93,7 @@ $maincolor = #ffa500;
     padding: 20px;
     text-decoration: none;
     transition: all 0.4s;
+    margin-bottom: 30px;
   .projects:hover
     color: $maincolor;
 </style>

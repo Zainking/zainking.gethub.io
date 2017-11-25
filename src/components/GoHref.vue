@@ -9,7 +9,7 @@ export default {
     var _this = this
     setTimeout(function () {
       if (_this.$route.params.href) {
-        window.location.href = '//' + _this.$route.params.href
+        window.location.href = 'http://' + _this.$route.params.href
       } else {
         window.location.href = '/'
       }
