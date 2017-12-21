@@ -1,8 +1,17 @@
 [
   {
+    "name": "Zain's music 我的音乐",
+    "info": "用来随时放一些我平常想听的歌",
+    "technicalStack": ["React", "Redux", "React-router", "jPlayer", "stylus"],
+    "detail": "使用React + Redux + React-router + jPlayer + stylus构建的一个音乐播放器，实现了工程式模块化，可以用来随时不用下载音乐安装会员就听自己喜欢的音乐",
+    "link": "//music.zain.red",
+    "sourceCode": "https://github.com/Zainking/music/tree/source-code",
+    "imgUrl": "https://img1.zain.red/11.25/11.png"
+  },
+  {
     "name": "Resumer简历生成器",
     "info": "可以拿来生成一个简历，还可以保存在网上！",
-    "technicalStack": ["Vue", "VueX", "Vue-router", "jade", "stylus", "LeanCloud"],
+    "technicalStack": ["Vue", "Vuex", "Vue-router", "jade", "stylus", "LeanCloud"],
     "detail": "使用Vue + Vuex + Vue-router + jade + stylus + leanCloud构建的一个简历编辑器，实现了工程式模块化，基于路由的懒加载等，花费了很多思考做的比较精致的一个小东西",
     "link": "//resumer.zain.red",
     "sourceCode": "https://github.com/Zainking/resumer/tree/source-code",
