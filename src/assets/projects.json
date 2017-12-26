@@ -9,6 +9,14 @@
     "imgUrl": "https://img1.zain.red/11.25/11.png"
   },
   {
+    "name": "my jQuery",
+    "info": "自己仿照jQuery完成了一个类似的库",
+    "technicalStack": ["javaScript"],
+    "detail": "一个简单的仿制jQuery，实现了IE9+兼容下的on, addClass, removeClass, toggleClass, text, html, find, end, css方法和$.ajax函数",
+    "sourceCode": "https://github.com/Zainking/myjQuery",
+    "imgUrl": "https://img1.zain.red/11.25/12.png"
+  },
+  {
     "name": "Resumer简历生成器",
     "info": "可以拿来生成一个简历，还可以保存在网上！",
     "technicalStack": ["Vue", "Vuex", "Vue-router", "jade", "stylus", "LeanCloud"],
