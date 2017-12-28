@@ -1,6 +1,16 @@
 <template lang='jade'>
 div#other
   TopBar(title='其他')
+  h3 功能
+  ul
+    li
+      router-link(to="/gohref/comment.zain.red") 十条评论区
+      br
+      |这是一个只能保存最近10条留言的评论区板块
+    li
+      router-link(to="/laboratory") 实验室
+      br
+      |一些最新的未被大多数浏览器兼容的功能或小的不能称之为项目的Demo我会放在这里
   h3 友情链接
   ul.friendLink
     li
@@ -15,12 +25,6 @@ div#other
       router-link(to="/gohref/hcyue.me") 黄盖
       br
       |万Gay之首
-  h3 功能
-  ul
-    li
-      router-link(to="/gohref/comment.zain.red") 十条评论区
-      br
-      |这是一个只能保存最近10条留言的评论区板块
   p.tip 申请友情链接 访问次数 正在建设中...
 </template>
 
