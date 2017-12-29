@@ -1,5 +1,14 @@
 [
   {
+    "name": "zainTpl",
+    "info": "一个简单的模板引擎",
+    "technicalStack": ["javaScript"],
+    "detail": "一个极简的模板引擎，并且实现了转义html字符串的安全模式，完成了单元测试并发布到了npm上",
+    "sourceCode": "https://github.com/Zainking/zainTpl",
+    "link": "https://www.npmjs.com/package/zain-tpl",
+    "imgUrl": "https://img1.zain.red/11.25/13.png"
+  },
+  {
     "name": "my jQuery",
     "info": "自己仿照jQuery完成了一个类似的库",
     "technicalStack": ["javaScript"],
