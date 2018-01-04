@@ -1,5 +1,13 @@
 [
   {
+    "name": "pixi.js官方中文版教程",
+    "info": "我和Pixi.js的官方教程作者商量后，翻译了他的教程",
+    "technicalStack": ["英语"],
+    "detail": "Pixi是一个极好的2D游戏渲染引擎，用WebGL大幅度提升了渲染性能，我为它的中文推广做了一些微小的贡献",
+    "sourceCode": "https://github.com/Zainking/LearningPixi",
+    "imgUrl": "https://img1.zain.red/11.25/14.png"
+  },
+  {
     "name": "zainTpl",
     "info": "一个简单的模板引擎",
     "technicalStack": ["javaScript"],
