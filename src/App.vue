@@ -35,6 +35,7 @@ export default {
 *
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color:transparent;
 #app
   margin:0 auto;
   max-width: 640px;
