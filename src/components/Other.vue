@@ -4,7 +4,7 @@ div#other
   h3 功能
   ul
     li
-      router-link(to="/gohref/comment.zain.red") 十条评论区
+      a(href="http://comment.zain.red") 十条评论区
       br
       |这是一个只能保存最近10条留言的评论区板块
     li
@@ -14,15 +14,15 @@ div#other
   h3 友情链接
   ul.friendLink
     li
-      router-link(to="/gohref/wulasite.me") QQ星
+      a(href="http://wulasite.me") QQ星
       br
       |可爱的GayGay星
     li
-      router-link(to="/gohref/cateaf.com") 小礼服
+      a(href="http://cateaf.com") 小礼服
       br
       |爱好是撸猫的萌汉子
     li
-      router-link(to="/gohref/hcyue.me") 黄盖
+      a(href="http://hcyue.me") 黄盖
       br
       |万Gay之首
   p.tip 申请友情链接 访问次数 正在建设中...

@@ -6,7 +6,6 @@ import Laboratory from '@/components/Laboratory'
 import Resume from '@/components/Resume'
 import Other from '@/components/Other'
 import TopBar from '@/components/TopBar'
-import GoHref from '@/components/GoHref'
 import ProjectDetail from '@/components/ProjectDetail'
 import LaboratoryDetail from '@/components/LaboratoryDetail'
 
@@ -48,11 +47,6 @@ export default new Router({
       path: '/other',
       name: 'other',
       component: Other
-    },
-    {
-      path: '/gohref/:href',
-      name: 'gohref',
-      component: GoHref
     }
   ]
 })

@@ -4,7 +4,7 @@ div#index
   h1 Zain
   ul
     li
-      router-link(to="/gohref/blog.zain.red") 博客
+      a(href="https://blog.zain.red") 博客
     li
       router-link(to="/projects") 作品
     li
