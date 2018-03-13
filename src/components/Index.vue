@@ -1,7 +1,7 @@
 <template lang='jade'>
 div#index
   img(v-bind:src='avatar')
-  h1 Zain King
+  h1 Zain
   ul
     li
       router-link(to="/gohref/blog.zain.red") 博客
