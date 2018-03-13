@@ -21,17 +21,21 @@ div#resume
     li(v-for="item in resume.other")
       p.itemTitle {{item[0]}}
       p.itemInfo {{item[1]}}
+  h3.title(v-bind:src='wechat') 微信
+  img.wechat(v-bind:src='wechat')
 </template>
 
 <script>
 import me from '@/assets/me.jpg'
+import wechat from '@/assets/wechat.png'
 import resume from '@/assets/resume.json'
 export default {
   name: 'Resume',
   data () {
     return {
-      me: me,
-      resume: resume
+      me,
+      resume,
+      wechat
     }
   }
 }
@@ -51,6 +55,11 @@ $maincolor = #ffa500;
     display: block;
     margin: 0 auto;
     transition: all 2s;
+  .wechat
+    width: 200px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
   .avatar:hover
     border-color: $maincolor;
   h3

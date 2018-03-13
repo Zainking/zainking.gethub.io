@@ -1,5 +1,23 @@
 [
   {
+    "name": "千年弦歌-人员管理系统",
+    "info": "弦歌工作室的一个中台人员管理系统",
+    "technicalStack": ["React", "Dva", "Antd"],
+    "detail": "在弦歌负责的通讯录和人员管理后台系统，V1.0以jQuery构建，后以React技术栈的Dva和蚂蚁金服的Antd重构。实现了分权限动态加载内容，分页和较复杂的人员面试，网申流程管理，网申结果查询。并给普通权限成员分配了一个通讯录。",
+    "link": "http://qnxg.net/insider/",
+    "isNeedUser": true,
+    "imgUrl": "https://img1.zain.red/11.25/16.png"
+  },
+  {
+    "name": "比利·海灵顿纪念网",
+    "info": "纪念我们的王",
+    "technicalStack": ["Vue"],
+    "detail": "什么都不说了，永远怀念我们的王。",
+    "link": "http://billy.zain.red/",
+    "sourceCode": "https://github.com/Zainking/Billy",
+    "imgUrl": "https://img1.zain.red/11.25/17.png"
+  },
+  {
     "name": "Zain's music 我的音乐",
     "info": "用来随时放一些我平常想听的歌",
     "technicalStack": ["React", "Redux", "React-router", "jPlayer", "stylus"],
@@ -34,15 +52,6 @@
     "link": "http://lsm.xiaolab.net/",
     "isNeedUser": true,
     "imgUrl": "https://img1.zain.red/11.25/7.png"
-  },
-  {
-    "name": "千年弦歌-人员管理系统",
-    "info": "用五天写的一个中台人员管理系统",
-    "technicalStack": ["jQuery", "CodeIgniter"],
-    "detail": "在弦歌负责的通讯录和人员管理后台系统，以及招新首页，使用CI与Jquery构建。实现了分权限动态加载内容，分页和较复杂的人员面试，网申流程管理，网申结果查询。并给普通权限成员分配了一个通讯录。",
-    "link": "http://qnxg.net/insider/frontend/insider.html",
-    "isNeedUser": true,
-    "imgUrl": "https://img1.zain.red/11.25/6.png"
   },
   {
     "name": "千年弦歌-前端实习生学习网",

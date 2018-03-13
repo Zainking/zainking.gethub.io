@@ -1,5 +1,14 @@
 [
   {
+    "name": "git-deployer",
+    "info": "仿照hexo-deployer-git用node写的一个部署命令行工具",
+    "technicalStack": ["javaScript", "node"],
+    "detail": "可以将指定文件夹的内容部署到指定远程仓库的指定分支上，用来做需要编译的github pages特别好用，当然也可以用于任何基于git的版本管理仓库上，配合git hooks可以达到自动部署的效果",
+    "sourceCode": "https://github.com/Zainking/git-deployer",
+    "link": "https://www.npmjs.com/package/git-deployer",
+    "imgUrl": "https://img1.zain.red/11.25/15.png"
+  },
+  {
     "name": "pixi.js官方中文版教程",
     "info": "我和Pixi.js的官方教程作者商量后，翻译了他的教程",
     "technicalStack": ["英语"],
@@ -13,7 +22,7 @@
     "technicalStack": ["javaScript"],
     "detail": "一个极简的模板引擎，并且实现了转义html字符串的安全模式，完成了单元测试并发布到了npm上",
     "sourceCode": "https://github.com/Zainking/zainTpl",
-    "link": "https://npm.runkit.com/zain-tpl",
+    "link": "https://www.npmjs.com/package/zain-tpl",
     "imgUrl": "https://img1.zain.red/11.25/13.png"
   },
   {
