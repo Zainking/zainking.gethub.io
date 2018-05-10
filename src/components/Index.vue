@@ -11,6 +11,8 @@ div#index
       router-link(to="/resume") 简历
     li
       router-link(to="/other") 其他
+  div.footer
+    &copy;2018 Zain 湘ICP备18008942号
 </template>
 
 <script>
@@ -42,12 +44,20 @@ $maincolor = #ffa500;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  height: 100vh;
   img
     width: 200px;
   h1
     font-weight: 400;
     margin: 0 0 10px 0;
+  .footer
+    font-size: 0.8em;
+    color: #aaa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
   ul
     list-style: none;
     padding: 0;
