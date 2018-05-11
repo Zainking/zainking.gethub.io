@@ -22,7 +22,11 @@ export default new Router({
     {
       path: '/projects',
       name: 'projects',
-      component: Projects
+      component: Projects,
+      meta: {
+        title: 'projects',
+        keepAlive: true
+      }
     },
     {
       path: '/projects/:id',
@@ -32,7 +36,11 @@ export default new Router({
     {
       path: '/laboratory',
       name: 'laboratory',
-      component: Laboratory
+      component: Laboratory,
+      meta: {
+        title: 'laboratory',
+        keepAlive: true
+      }
     },
     {
       path: '/laboratory/:id',
@@ -42,7 +50,11 @@ export default new Router({
     {
       path: '/resume',
       name: 'resume',
-      component: Resume
+      component: Resume,
+      meta: {
+        title: 'resume',
+        keepAlive: true
+      }
     },
     {
       path: '/other',
