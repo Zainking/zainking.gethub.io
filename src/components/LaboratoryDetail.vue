@@ -38,6 +38,7 @@ $maincolor = #ffa500;
       display: block;
       position: absolute;
       width: 100%;
+      background-color: #ddd;
   p.detail
     font-size: 0.9em;
     color: #555;
