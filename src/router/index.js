@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 import Index from '@/components/Index'
 import Projects from '@/components/Projects'
 import Laboratory from '@/components/Laboratory'

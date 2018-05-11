@@ -49,6 +49,8 @@ $maincolor = #ffa500;
     list-style: none;
   .avatar
     width: 150px;
+    height: 150px;
+    // background-color: #eee;
     border-radius: 50%;
     padding: 5px;
     border: 3px solid #eee;
