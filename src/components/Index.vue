@@ -11,8 +11,7 @@ div#index
       router-link(to="/resume") 简历
     li
       router-link(to="/other") 其他
-  div.footer
-    &copy;2018 Zain 湘ICP备18008942号
+  div.footer  &copy;2018 Zain 湘ICP备18008942号
 </template>
 
 <script>
