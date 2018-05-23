@@ -25,6 +25,10 @@ div#other
       a(href="http://hcyue.me") 黄盖
       br
       |万Gay之首
+    li
+      a(href="http://caiyi.us/blog") 王浩然
+      br
+      |半路前端
   p.tip 申请友情链接 访问次数 正在建设中...
 </template>
 
