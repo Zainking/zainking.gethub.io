@@ -12,6 +12,7 @@
     "deploy": "node ./node_modules/git-deployer/index -r git@github.com:Zainking/zainking.github.io.git -d ./dist"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "git-deployer": "^1.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
