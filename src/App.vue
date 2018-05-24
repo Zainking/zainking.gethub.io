@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-if="!isIE">
     <transition>
 　　　　<router-view class="Router"></router-view>
     </transition>
@@ -8,7 +8,19 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      isIE: false
+    }
+  },
+  created () {
+    const UA = navigator.userAgent
+    this.isIE = UA.indexOf('Trident') !== -1
+    if (this.isIE) {
+      document.write('本网站不支持IE')
+    }
+  }
 }
 </script>
 

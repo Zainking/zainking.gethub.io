@@ -6,7 +6,7 @@
     "detail": "可以将指定文件夹的内容部署到指定远程仓库的指定分支上，用来做需要编译的github pages特别好用，当然也可以用于任何基于git的版本管理仓库上，配合git hooks可以达到自动部署的效果",
     "sourceCode": "https://github.com/Zainking/git-deployer",
     "link": "https://www.npmjs.com/package/git-deployer",
-    "imgUrl": "https://img1.zain.red/11.25/15.png"
+    "imgUrl": "https://static.zain.red/11.25/15.png"
   },
   {
     "name": "pixi.js官方中文版教程",
@@ -14,7 +14,7 @@
     "technicalStack": ["英语"],
     "detail": "Pixi是一个极好的2D游戏渲染引擎，用WebGL大幅度提升了渲染性能，我为它的中文推广做了一些微小的贡献",
     "sourceCode": "https://github.com/Zainking/LearningPixi",
-    "imgUrl": "https://img1.zain.red/11.25/14.png"
+    "imgUrl": "https://static.zain.red/11.25/14.png"
   },
   {
     "name": "zainTpl",
@@ -23,7 +23,7 @@
     "detail": "一个极简的模板引擎，并且实现了转义html字符串的安全模式，完成了单元测试并发布到了npm上",
     "sourceCode": "https://github.com/Zainking/zainTpl",
     "link": "https://www.npmjs.com/package/zain-tpl",
-    "imgUrl": "https://img1.zain.red/11.25/13.png"
+    "imgUrl": "https://static.zain.red/11.25/13.png"
   },
   {
     "name": "my jQuery",
@@ -31,7 +31,7 @@
     "technicalStack": ["javaScript"],
     "detail": "一个简单的仿制jQuery，实现了IE9+兼容下的on, addClass, removeClass, toggleClass, text, html, find, end, css方法和$.ajax函数",
     "sourceCode": "https://github.com/Zainking/myjQuery",
-    "imgUrl": "https://img1.zain.red/11.25/12.png"
+    "imgUrl": "https://static.zain.red/11.25/12.png"
   },
   {
     "name": "基础练习项目",
@@ -39,7 +39,7 @@
     "technicalStack": ["HTML 5", "CSS 3", "ES6", "jQuery", "Requirejs", "Gulp", "Webpack"],
     "detail": "在饥人谷的学习期间，我巩固了CSS与JS基础，并完成了几个设计项目。事实上在这里学到的前端工程化模块化思想和相关工具正是我当初的瓶颈",
     "sourceCode": "https://github.com/Zainking/demos",
-    "imgUrl": "https://img1.zain.red/11.25/2.png"
+    "imgUrl": "https://static.zain.red/11.25/2.png"
   },
   {
     "name": "百度前端学院项目",
@@ -47,6 +47,6 @@
     "technicalStack": ["HTML", "CSS", "javaScript", "基础算法"],
     "detail": "初学前端时在百度前端学院所完成的基础内容，包括CSS基础布局，js排序算法，表单基础实现等。我通过百度前端学院完成了前端基础的自修",
     "sourceCode": "https://github.com/Zainking/IFE_Demo",
-    "imgUrl": "https://img1.zain.red/11.25/1.png"
+    "imgUrl": "https://static.zain.red/11.25/1.png"
   }
 ]

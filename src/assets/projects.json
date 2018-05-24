@@ -22,7 +22,7 @@
     "info": "用来随时放一些我平常想听的歌",
     "technicalStack": ["React", "Redux", "React-router", "jPlayer", "stylus"],
     "detail": "使用React + Redux + React-router + jPlayer + stylus构建的一个音乐播放器，实现了工程式模块化，可以用来随时不用下载音乐安装会员就听自己喜欢的音乐",
-    "link": "//music.zain.red",
+    "link": "http://music.zain.red",
     "sourceCode": "https://github.com/Zainking/music/tree/source-code",
     "imgUrl": "https://static.zain.red/11.25/11.png"
   },
@@ -31,7 +31,7 @@
     "info": "可以拿来生成一个简历，还可以保存在网上！",
     "technicalStack": ["Vue", "Vuex", "Vue-router", "jade", "stylus", "LeanCloud"],
     "detail": "使用Vue + Vuex + Vue-router + jade + stylus + leanCloud构建的一个简历编辑器，实现了工程式模块化，基于路由的懒加载等，花费了很多思考做的比较精致的一个小东西",
-    "link": "//resumer.zain.red",
+    "link": "http://resumer.zain.red",
     "sourceCode": "https://github.com/Zainking/resumer/tree/source-code",
     "imgUrl": "https://static.zain.red/11.25/9.png"
   },
@@ -58,7 +58,7 @@
     "info": "如果你也想学前端，不如我来教你~",
     "technicalStack": ["jQuery", "Flex布局"],
     "detail": "为千年弦歌实习生写的发布实习任务的网站，其中每周任务为我本人所写，加入了我对前端基础培训的思考。网站使用flex布局，并增加了一个可以随机生成项目颜色的函数和一个md解析器。",
-    "link": "//intern.zain.red",
+    "link": "http://intern.zain.red",
     "sourceCode": "https://github.com/Zainking/front-end-intern-training",
     "imgUrl": "https://static.zain.red/11.25/8.png"
   },
@@ -84,7 +84,7 @@
     "info": "一个参考了MBTI人格分析法写成的心理测试网站，你大可以在里面测一测你是什么类型的人",
     "technicalStack": ["jQuery", "原生php", "mySQL"],
     "detail": "练习项目，V1.0版本使用了原生php与Jquery构建，实现了动态读取问题，记录答案，计算评分，给出测试结果，用户登录，注册，修改密码以及查看历史测试等各功能。",
-    "link": "http://wzy88665.gotoip55.com/mbti48/",
+    "link": "http://php.zain.red/mbti48/",
     "imgUrl": "https://static.zain.red/11.25/3.png"
   }
 ]
