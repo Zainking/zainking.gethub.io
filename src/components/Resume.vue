@@ -4,11 +4,16 @@ div#resume
   img.avatar(v-bind:src='me')
   h3.name {{resume.name}}
   p.infomation {{resume.college}} | {{resume.birthday}} | {{resume.city}}
-  h3.title 技能列表
+  //- h3.title 技能列表
+  //- ul
+  //-   li(v-for="item in resume.skill")
+  //-     span.skillName {{item[0]}}
+  //-     span.skillLevel {{item[1]}}
+  h3.title 教育背景
   ul
-    li(v-for="item in resume.skill")
-      span.skillName {{item[0]}}
-      span.skillLevel {{item[1]}}
+    li(v-for="item in resume.degree")
+      p.itemTitle {{item[0]}}
+      p.itemInfo {{item[1]}}
   h3.title 工作经历
   ul
     li(v-for="item in resume.workExperience")
