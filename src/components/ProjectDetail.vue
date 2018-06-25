@@ -7,7 +7,7 @@ div#projectDetail
   ul.tips
     li(v-if="item.isNeedUser") 这个项目全部或部分功能需要一个您无法获得的注册用户才能体验
     li(v-if="!item.sourceCode") 这个项目因为代码未同步到GitHub或存在保密需求所以未开放源码
-    li(v-if="!item.link") 这个项目可能无法集中或实时预览，需要您通过源码预览
+    li(v-if="!item.link") 这个项目可能无法集中或实时预览，需要您查看源码了解
   div.btnbox
     a(v-bind:href="item.sourceCode" v-if="item.sourceCode") 源代码
     a(v-bind:href="item.link" v-if="item.link") 在线预览
