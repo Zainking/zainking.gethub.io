@@ -44,7 +44,8 @@ $maincolor = #ffa500;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  position: absolute;
   img
     width: 200px;
   h1
