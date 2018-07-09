@@ -1,5 +1,19 @@
 [
   {
+    "name": "The Maximum Speed",
+    "info": "岳麓山下最大的在线XX网站",
+    "technicalStack": [
+      "React",
+      "Dva",
+      "Antd"
+    ],
+    "detail": "和TMs合作出品，在线开箱，看你的手气了少年。",
+    "link": "https://bat.cat/#/",
+    "isNeedUser": true,
+    "imgUrl": "https://static.zain.red/11.25/18.png",
+    "sourceCode": "https://github.com/Zainking/tmsvpn"
+  },
+  {
     "name": "千年弦歌-人员管理系统",
     "info": "弦歌工作室的一个中台人员管理系统",
     "technicalStack": ["React", "Dva", "Antd"],
