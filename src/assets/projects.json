@@ -1,5 +1,16 @@
 [
   {
+    "name": "万科朴邻官网",
+    "info": "给万科做的一个外包项目",
+    "technicalStack": [
+      "Vue",
+      "iView"
+    ],
+    "detail": "以Vue和iView为技术栈为万科开发的朴邻二手房专营店官网。",
+    "link": "https://pulin.vankeservice.com/#index",
+    "imgUrl": "https://static.zain.red/11.25/19.png"
+  },
+  {
     "name": "The Maximum Speed",
     "info": "岳麓山下最大的在线XX网站",
     "technicalStack": [
