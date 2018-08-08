@@ -1,5 +1,14 @@
 [
   {
+    "name": "Vue UWP",
+    "info": "根据微软UWP规范书写的一个UI框架",
+    "technicalStack": ["Vue"],
+    "detail": "这是一个根据微软UWP规范书写的基于Vue的UI框架，是我在视琦团队时参与开发的开源项目",
+    "sourceCode": "https://github.com/babyeyeFE/vue-uwp",
+    "link": "https://babyeyefe.github.io/vue-uwp/",
+    "imgUrl": "https://static.zain.red/11.25/20.png"
+  },
+  {
     "name": "git-deployer",
     "info": "仿照hexo-deployer-git用node写的一个部署命令行工具",
     "technicalStack": ["javaScript", "node"],
