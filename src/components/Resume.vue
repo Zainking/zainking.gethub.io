@@ -26,8 +26,8 @@ div#resume
       p.itemTitle {{item[0]}}
       p.workTime {{item[1]}}
       p.itemInfo {{item[2]}}
-  // span(v-on:click="handleScroll")
-  //   router-link.projects(to="/projects") 查看我的项目 &gt;&gt;
+  //- span(v-on:click="handleScroll")
+  //-   router-link.projects(to="/projects") 查看我的项目 &gt;&gt;
   h3.title 其他经历
   ul
     li(v-for="item in resume.other")
