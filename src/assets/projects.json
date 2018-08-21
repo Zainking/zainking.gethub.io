@@ -1,5 +1,17 @@
 [
   {
+    "name": "EatStar",
+    "info": "吃星星的小游戏",
+    "technicalStack": [
+      "Cocos Creator",
+      "TypeScript"
+    ],
+    "detail": "Cocos Creator的新手项目，改造成了TypeScript版本。",
+    "link": "https://zain.red/EatStar/",
+    "sourceCode": "https://github.com/Zainking/EatStar",
+    "imgUrl": "https://static.zain.red/11.25/21.png"
+  },
+  {
     "name": "万科朴邻官网",
     "info": "给万科做的一个外包项目",
     "technicalStack": [
