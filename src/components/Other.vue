@@ -16,7 +16,7 @@ div#other
     li
       a(href="http://wulasite.me") QQ星
       br
-      |可爱的GayGay星
+      |可爱的QQ星
     li
       a(href="http://cateaf.com") 小礼服
       br
