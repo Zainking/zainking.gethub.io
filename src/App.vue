@@ -25,9 +25,6 @@ export default {
 </script>
 
 <style lang='stylus'>
-@media (min-width:640px)
-  html
-    overflow-x: hidden;
 *
   margin: 0;
   padding: 0;
