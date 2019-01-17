@@ -1,6 +1,6 @@
 <template lang='jade'>
 div#index
-  img(v-bind:src='avatar')
+  img(v-bind:src='avatar' v-on:click='handleTempPage')
   h1 Zain
   ul
     li
@@ -20,7 +20,17 @@ export default {
   name: 'Index',
   data () {
     return {
-      avatar: avatar
+      avatar: avatar,
+      tapAvatarTimes: 0
+    }
+  },
+  methods: {
+    handleTempPage () {
+      this.tapAvatarTimes++
+      if (this.tapAvatarTimes >= 10) {
+        this.tapAvatarTimes = 0
+        this.$router.push({ path: '/tp' })
+      }
     }
   }
 }

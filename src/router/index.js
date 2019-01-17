@@ -9,7 +9,7 @@ import Other from '@/components/Other'
 import TopBar from '@/components/TopBar'
 import ProjectDetail from '@/components/ProjectDetail'
 import LaboratoryDetail from '@/components/LaboratoryDetail'
-
+import TempPage from '@/components/TempPage'
 Vue.use(Router)
 Vue.component('TopBar', TopBar)
 export default new Router({
@@ -60,6 +60,11 @@ export default new Router({
       path: '/other',
       name: 'other',
       component: Other
+    },
+    {
+      path: '/tp',
+      name: 'tp',
+      component: TempPage
     }
   ]
 })
