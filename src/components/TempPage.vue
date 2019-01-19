@@ -26,11 +26,6 @@
                 li 熟悉 Chrome 抓包调试打断点，性能分析等
                 li 了解 Node.js 编程
                 li 了解 Linux 命令行， Shell 脚本
-        span.title 计划
-        p.content
-            ul.list
-                li 更换一家技术氛围更加浓厚的公司工作
-                li 取得计算机专业第二学位，巩固基础
 </template>
 <style lang="stylus" scoped>
     $maincolor = #ffa500;
@@ -49,6 +44,11 @@
         margin-right 0.2em
         display inline-block
         background-color $maincolor
+    span.title
+        display flex
+        align-items center
+        justify-content center
+        margin-bottom 20px
     p.content
         color #555
         margin-bottom 40px
