@@ -14,9 +14,9 @@ div#other
   h3 友情链接
   ul.friendLink
     li
-      a(href="http://wulasite.me") QQ星
+      a(href="https://censujiang.com") 江程训
       br
-      |可爱的QQ星
+      |技术宅，漫宅和伪娘于一身的废萌聚合体
     li
       a(href="http://cateaf.com") 小礼服
       br
@@ -48,9 +48,11 @@ $maincolor = #ffa500;
   ul.friendLink
     display: flex;
     flex-wrap: wrap;
+    justify-content space-between;
     li
-      flex-grow: 1;
-      min-width: 150px;
+      flex-grow 1;
+      margin-right 10px
+      max-width 25% 
   ul
     list-style: none;
     padding: 0;
